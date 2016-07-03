@@ -14,7 +14,7 @@
 
 var visit = require('unist-util-visit');
 var nlcstToString = require('nlcst-to-string');
-var posjs = require('pos-js');
+var posjs = require('pos');
 
 
 /*
