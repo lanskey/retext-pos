@@ -14,18 +14,8 @@
 
 var visit = require('unist-util-visit');
 var nlcstToString = require('nlcst-to-string');
-var posjs;
+var posjs = require('pos-js');
 
-/*
- * Duo and component / npm and component.
- */
-
-try {
-    posjs = require('pos');
-} catch (err) {
-    /* istanbul ignore next - browser */
-    posjs = require('pos-js');
-}
 
 /*
  * Constants.
